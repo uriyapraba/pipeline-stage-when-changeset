@@ -7,7 +7,7 @@ pipeline
         {
             when
             {
-                changeset glob: '*.js'
+                changeset GLOB: '*.js'
             }
             steps
             {
